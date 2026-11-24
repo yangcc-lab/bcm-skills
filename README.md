@@ -2,7 +2,7 @@
 
 Turn a company URL or internal documents into a report on **which work is worth improving, what you could build, and how to test whether it helps**.
 
-**[Open the live TSMC demo](https://yangnim21029.github.io/bcm-skills/)** — a new public-source report made with the current skills, with a capability map, investment options, execution conditions and research opportunities. Its proposed improvements are independent analysis, not TSMC-approved investments.
+**[Open the live TSMC demo](https://yangcc-lab.github.io/bcm-skills/)** — a new public-source report made with the current skills, with a capability map, investment options, execution conditions and research opportunities. Its proposed improvements are independent analysis, not TSMC-approved investments.
 
 These two agent skills research an organization, map the work it performs, and develop investment options with evidence, implementation conditions and research papers. Investment means committing staff time, software spending or development effort to an improvement.
 
@@ -65,7 +65,7 @@ Use an agent host with web research, local file and Python execution, and image-
 For a fresh project installation, run this from your project directory:
 
 ```sh
-git clone https://github.com/yangnim21029/bcm-skills.git
+git clone https://github.com/yangcc-lab/bcm-skills.git
 mkdir -p .agents/skills
 cp -R bcm-skills/bcm-creator .agents/skills/
 cp -R bcm-skills/ai-opportunity-radar .agents/skills/
